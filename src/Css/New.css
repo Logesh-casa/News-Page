@@ -1,0 +1,28 @@
+.new {
+   background-color: var(--very-dark-blue);
+   padding: 0 1.5rem;
+}
+
+.new-heading {
+   color: var(--soft-orange);
+   font-weight: 600;
+}
+
+.each-news-heading {
+   color: var(--off-white);
+}
+
+.each-news-heading:hover {
+   color: var(--soft-orange);
+   cursor: pointer;
+}
+
+.each-news-description {
+   color: var(--grayish-blue);
+}
+
+.new-separator {
+   height: 1px;
+   background-color: var(--dark-grayish-blue);
+   margin: 1.6rem 0;
+}

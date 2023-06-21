@@ -1,0 +1,26 @@
+.nav-list {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   flex: 1;
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+   margin: 2rem 0;
+}
+
+.page-logo-wrapper {
+   flex: 1.3;
+}
+
+.nav-item:hover {
+   cursor: pointer;
+   color: var(--soft-red);
+   transition: all 0.2s;
+}
+
+.nav-item {
+   color: var(--dark-grayish-blue);
+}
